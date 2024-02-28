@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog - Online Bookstore</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #c88abf;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .catalog {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 20px;
+            padding: 20px;
+        }
+
+        .book {
+            text-align: center;
+            padding: 40px;
+            background-color: #dbadda;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .book img {
+            max-width: 100px;
+            max-height: 150px;
+            margin-bottom: 10px;
+        }
+
+        .book h2 {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+
+        .book p {
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+
+        .book button {
+            padding: 5px 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .book button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Catalogue</h1>
+        <div class="catalog">
+            <div class="book">
+                <img src="images/book1.jpg" alt="Book 1">
+                <h2>Harry Potter and the Soccerer's Stone</h2>
+                <p>Author: JK Rowling</p>
+                <p>Price: 500</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="book">
+                <img src="images/book2.jpg" alt="Book 2">
+                <h2>Harry Potter and the Chamber of Secrets</h2>
+                <p>Author: JK Rowling</p>
+                <p>Price: 500</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="book">
+                <img src="images/book3.jpg" alt="Book 2">
+                <h2> Harry Potter and the Prisoner of Azkaban</h2>
+                <p>Author: JK Rowling</p>
+                <p>Price: 500</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="book">
+                <img src="images/book4.jpg" alt="Book 2">
+                <h2>Harry Potter and the Goblet of Fire</h2>
+                <p>Author: JK Rowling</p>
+                <p>Price: 500</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="book">
+                <img src="images/book5.jpg" alt="Book 2">
+                <h2>Harry Potter and the Order of Phoneix</h2>
+                <p>Author: JK Rowling</p>
+                <p>Price: 500</p>
+                <button>Add to Cart</button>
+            </div>
+</body>
+
+</html>
